@@ -9,7 +9,7 @@ A lightweight ASP.NET Core application that wraps **Lucene.NET** to provide:
 ## Run
 
 ```bash
-dotnet run --project /tmp/workspace/tmstoner/musical-octo-potato/MusicalOctoPotato.Web
+dotnet run --project ./MusicalOctoPotato.Web
 ```
 
 ## API summary
@@ -19,3 +19,8 @@ dotnet run --project /tmp/workspace/tmstoner/musical-octo-potato/MusicalOctoPota
 - `POST /api/indices/{indexName}/documents`
 - `GET /api/indices/{indexName}/query?q=...`
 - `GET /api/metrics`
+
+
+## Current implementation note
+
+Indexes are currently stored in-memory via Lucene `RAMDirectory` for a lightweight starter implementation.
