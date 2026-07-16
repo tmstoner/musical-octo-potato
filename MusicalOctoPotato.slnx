@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="MusicalOctoPotato.Web.Tests/MusicalOctoPotato.Web.Tests.csproj" />
+  <Project Path="MusicalOctoPotato.Web/MusicalOctoPotato.Web.csproj" />
+</Solution>
